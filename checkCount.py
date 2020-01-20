@@ -25,6 +25,10 @@ def printCheck(check, file):
     file.write("************\n")
 
 
+def practice():
+    print("Practice!")
+
+
 def main():
     
     print("Enter input file name:")
