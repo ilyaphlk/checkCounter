@@ -26,6 +26,10 @@ def printCheck(check, file):
 
 
 def main():
+    
+    print("Enter input file name:")
+    INPUT_FILENAME = input()
+
     with open(INPUT_FILENAME, 'r') as file:
         lines = file.readlines()
     myOwnSpendings = list()
