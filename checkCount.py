@@ -25,8 +25,9 @@ def printCheck(check, file):
     file.write("************\n")
 
 
-def practice():
-    print("Practice!")
+def practice(repeat_count=1):
+    for _ in range(repeat_count):
+        print("Practice!")
 
 
 def main():
